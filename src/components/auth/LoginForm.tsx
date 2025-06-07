@@ -86,7 +86,7 @@ export default function LoginForm() {
         {isLoading ? (
           <>
             <Loader2 className="animate-spin" size={20} />
-            Iniciando sesión...
+            Please  wait... Iniciando sesión....
           </>
         ) : (
           'Iniciar Sesión'
@@ -95,6 +95,7 @@ export default function LoginForm() {
 
       <div className="text-center text-sm text-gray-600">
         <p>Credenciales de prueba:</p>
+        <p>Contraseña: demo123</p>
         <p>Email: demo@nexus.com</p>
         <p>Contraseña: demo123</p>
       </div>
